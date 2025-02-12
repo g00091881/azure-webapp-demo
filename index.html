@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Azure Web Page farah</title>
+    <title>Assignment Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Azure Website</h1>
+    <header>
+        <h1>Assignment Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="assignments/past.html">Past Assignments</a></li>
+            <li><a href="assignments/current.html">Current Assignments</a></li>
+            <li><a href="assignments/future.html">Future Assignments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Our Portfolio</h2>
+            <p>This website hosts all the COE420 class assignments!</p>
+        </section>
+
+        <section class="projects-container">
+            <div class="project-item">
+                <h3>Assignment 1</h3>
+                <p>Week 1&2 - Sprint 1</p>
+                <button onclick="location.href='assignments/assignment1.html'">View</button>
+            </div>
+
+            <div class="project-item">
+                <h3>Assignment 2</h3>
+                <p>Week 3&4 - Sprint 2</p>
+                <button onclick="location.href='assignments/assignment2.html'">View</button>
+            </div>
+
+            <div class="project-item">
+                <h3>Assignment 3</h3>
+                <p>Week 5&6 - Sprint 3</p>
+                <button onclick="location.href='assignments/assignment3.html'">View</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Last Updated: 15/2/2025</p>
+    </footer>
 </body>
 </html>
